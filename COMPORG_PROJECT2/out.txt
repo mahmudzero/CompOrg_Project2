@@ -1,0 +1,2575 @@
+Fetching Instruction
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 0, CLoad: 0, REGLoad: 0, ALoad: 0, Aoe: 0, BLoad: 0, Boe: 0, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 0, PCoes1: 0, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 0, A: 0, B: 0, C: 0
+IR: 00000000001000100000000000100000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 0, S2: 0, Address: 0, Destination: 0, Data: 00000000001000100000000000100000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 0, R1: 1, R2: 2, R3: 3, R4: 4, R5: 5, R6: 6, R7: 7, R8: 8, R9: 9, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Updating PC and Loading A, B
+
+******** SIGNALS ********
+S2OP: 7, ZFlag: 0, ALUop: 0, CLoad: 0, REGLoad: 0, ALoad: 1, Aoe: 0, BLoad: 1, Boe: 0, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 4, A: 1, B: 2, C: 0
+IR: 00000000001000100000000000100000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 0, S2: 0, Address: 0, Destination: 4, Data: 00000000001000100000000000100000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 0, R1: 1, R2: 2, R3: 3, R4: 4, R5: 5, R6: 6, R7: 7, R8: 8, R9: 9, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+RType: Execute
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 0, CLoad: 0, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 4, A: 1, B: 2, C: 0
+IR: 00000000001000100000000000100000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 1, S2: 2, Address: 0, Destination: 3, Data: 00000000001000100000000000100000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 0, R1: 1, R2: 2, R3: 3, R4: 4, R5: 5, R6: 6, R7: 7, R8: 8, R9: 9, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+RType: Memory
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 0, CLoad: 0, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 4, A: 1, B: 2, C: 0
+IR: 00000000001000100000000000100000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 1, S2: 2, Address: 0, Destination: 3, Data: 00000000001000100000000000100000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 0, R1: 1, R2: 2, R3: 3, R4: 4, R5: 5, R6: 6, R7: 7, R8: 8, R9: 9, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+RType: Write Back
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 1, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 4, A: 1, B: 2, C: 3
+IR: 00000000001000100000000000100000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 1, S2: 2, Address: 0, Destination: 3, Data: 00000000001000100000000000100000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 3, R1: 1, R2: 2, R3: 3, R4: 4, R5: 5, R6: 6, R7: 7, R8: 8, R9: 9, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Fetching Instruction
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 4, A: 1, B: 2, C: 3
+IR: 00000000100001010001100000100010
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 1, S2: 2, Address: 4, Destination: 3, Data: 00000000100001010001100000100010
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 3, R1: 1, R2: 2, R3: 3, R4: 4, R5: 5, R6: 6, R7: 7, R8: 8, R9: 9, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Updating PC and Loading A, B
+
+******** SIGNALS ********
+S2OP: 7, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 8, A: 4, B: 5, C: 3
+IR: 00000000100001010001100000100010
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 4, S2: 2, Address: 4, Destination: 8, Data: 00000000100001010001100000100010
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 3, R1: 1, R2: 2, R3: 3, R4: 4, R5: 5, R6: 6, R7: 7, R8: 8, R9: 9, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+RType: Execute
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 1, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 8, A: 4, B: 5, C: 3
+IR: 00000000100001010001100000100010
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 4, S2: 5, Address: 4, Destination: -1, Data: 00000000100001010001100000100010
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 3, R1: 1, R2: 2, R3: 3, R4: 4, R5: 5, R6: 6, R7: 7, R8: 8, R9: 9, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+RType: Memory
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 1, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 8, A: 4, B: 5, C: 3
+IR: 00000000100001010001100000100010
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 4, S2: 5, Address: 4, Destination: -1, Data: 00000000100001010001100000100010
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 3, R1: 1, R2: 2, R3: 3, R4: 4, R5: 5, R6: 6, R7: 7, R8: 8, R9: 9, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+RType: Write Back
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 1, CLoad: 1, REGLoad: 1, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 8, A: 4, B: 5, C: -1
+IR: 00000000100001010001100000100010
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 4, S2: 5, Address: 4, Destination: -1, Data: 00000000100001010001100000100010
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 3, R1: 1, R2: 2, R3: -1, R4: 4, R5: 5, R6: 6, R7: 7, R8: 8, R9: 9, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Fetching Instruction
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 1, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 8, A: 4, B: 5, C: -1
+IR: 00000000111010000011000000100101
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 4, S2: 5, Address: 8, Destination: -1, Data: 00000000111010000011000000100101
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 3, R1: 1, R2: 2, R3: -1, R4: 4, R5: 5, R6: 6, R7: 7, R8: 8, R9: 9, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Updating PC and Loading A, B
+
+******** SIGNALS ********
+S2OP: 7, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 12, A: 7, B: 8, C: -1
+IR: 00000000111010000011000000100101
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 8, S2: 5, Address: 8, Destination: 12, Data: 00000000111010000011000000100101
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 3, R1: 1, R2: 2, R3: -1, R4: 4, R5: 5, R6: 6, R7: 7, R8: 8, R9: 9, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+RType: Execute
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 5, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 12, A: 7, B: 8, C: -1
+IR: 00000000111010000011000000100101
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 7, S2: 8, Address: 8, Destination: 15, Data: 00000000111010000011000000100101
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 3, R1: 1, R2: 2, R3: -1, R4: 4, R5: 5, R6: 6, R7: 7, R8: 8, R9: 9, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+RType: Memory
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 5, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 12, A: 7, B: 8, C: -1
+IR: 00000000111010000011000000100101
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 7, S2: 8, Address: 8, Destination: 15, Data: 00000000111010000011000000100101
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 3, R1: 1, R2: 2, R3: -1, R4: 4, R5: 5, R6: 6, R7: 7, R8: 8, R9: 9, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+RType: Write Back
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 5, CLoad: 1, REGLoad: 1, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 12, A: 7, B: 8, C: 15
+IR: 00000000111010000011000000100101
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 7, S2: 8, Address: 8, Destination: 15, Data: 00000000111010000011000000100101
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 3, R1: 1, R2: 2, R3: -1, R4: 4, R5: 5, R6: 15, R7: 7, R8: 8, R9: 9, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Fetching Instruction
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 5, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 12, A: 7, B: 8, C: 15
+IR: 00000001010010110100100000100100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 7, S2: 8, Address: 12, Destination: 15, Data: 00000001010010110100100000100100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 3, R1: 1, R2: 2, R3: -1, R4: 4, R5: 5, R6: 15, R7: 7, R8: 8, R9: 9, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Updating PC and Loading A, B
+
+******** SIGNALS ********
+S2OP: 7, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 16, A: 10, B: 11, C: 15
+IR: 00000001010010110100100000100100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 12, S2: 8, Address: 12, Destination: 16, Data: 00000001010010110100100000100100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 3, R1: 1, R2: 2, R3: -1, R4: 4, R5: 5, R6: 15, R7: 7, R8: 8, R9: 9, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+RType: Execute
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 4, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 16, A: 10, B: 11, C: 15
+IR: 00000001010010110100100000100100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 10, S2: 11, Address: 12, Destination: 10, Data: 00000001010010110100100000100100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 3, R1: 1, R2: 2, R3: -1, R4: 4, R5: 5, R6: 15, R7: 7, R8: 8, R9: 9, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+RType: Memory
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 4, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 16, A: 10, B: 11, C: 15
+IR: 00000001010010110100100000100100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 10, S2: 11, Address: 12, Destination: 10, Data: 00000001010010110100100000100100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 3, R1: 1, R2: 2, R3: -1, R4: 4, R5: 5, R6: 15, R7: 7, R8: 8, R9: 9, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+RType: Write Back
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 4, CLoad: 1, REGLoad: 1, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 16, A: 10, B: 11, C: 10
+IR: 00000001010010110100100000100100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 10, S2: 11, Address: 12, Destination: 10, Data: 00000001010010110100100000100100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 3, R1: 1, R2: 2, R3: -1, R4: 4, R5: 5, R6: 15, R7: 7, R8: 8, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Fetching Instruction
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 4, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 16, A: 10, B: 11, C: 10
+IR: 00000000001000100000000000000100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 10, S2: 11, Address: 16, Destination: 10, Data: 00000000001000100000000000000100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 3, R1: 1, R2: 2, R3: -1, R4: 4, R5: 5, R6: 15, R7: 7, R8: 8, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Updating PC and Loading A, B
+
+******** SIGNALS ********
+S2OP: 7, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 20, A: 1, B: 2, C: 10
+IR: 00000000001000100000000000000100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 16, S2: 11, Address: 16, Destination: 20, Data: 00000000001000100000000000000100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 3, R1: 1, R2: 2, R3: -1, R4: 4, R5: 5, R6: 15, R7: 7, R8: 8, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+RType: Execute
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 8, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 20, A: 1, B: 2, C: 10
+IR: 00000000001000100000000000000100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 1, S2: 2, Address: 16, Destination: 4, Data: 00000000001000100000000000000100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 3, R1: 1, R2: 2, R3: -1, R4: 4, R5: 5, R6: 15, R7: 7, R8: 8, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+RType: Memory
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 8, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 20, A: 1, B: 2, C: 10
+IR: 00000000001000100000000000000100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 1, S2: 2, Address: 16, Destination: 4, Data: 00000000001000100000000000000100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 3, R1: 1, R2: 2, R3: -1, R4: 4, R5: 5, R6: 15, R7: 7, R8: 8, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+RType: Write Back
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 8, CLoad: 1, REGLoad: 1, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 20, A: 1, B: 2, C: 4
+IR: 00000000001000100000000000000100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 1, S2: 2, Address: 16, Destination: 4, Data: 00000000001000100000000000000100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: -1, R4: 4, R5: 5, R6: 15, R7: 7, R8: 8, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Fetching Instruction
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 8, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 20, A: 1, B: 2, C: 4
+IR: 00000000100001010001100000000110
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 1, S2: 2, Address: 20, Destination: 4, Data: 00000000100001010001100000000110
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: -1, R4: 4, R5: 5, R6: 15, R7: 7, R8: 8, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Updating PC and Loading A, B
+
+******** SIGNALS ********
+S2OP: 7, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 24, A: 4, B: 5, C: 4
+IR: 00000000100001010001100000000110
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 20, S2: 2, Address: 20, Destination: 24, Data: 00000000100001010001100000000110
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: -1, R4: 4, R5: 5, R6: 15, R7: 7, R8: 8, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+RType: Execute
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 10, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 24, A: 4, B: 5, C: 4
+IR: 00000000100001010001100000000110
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 4, S2: 5, Address: 20, Destination: 0, Data: 00000000100001010001100000000110
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: -1, R4: 4, R5: 5, R6: 15, R7: 7, R8: 8, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+RType: Memory
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 10, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 24, A: 4, B: 5, C: 4
+IR: 00000000100001010001100000000110
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 4, S2: 5, Address: 20, Destination: 0, Data: 00000000100001010001100000000110
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: -1, R4: 4, R5: 5, R6: 15, R7: 7, R8: 8, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+RType: Write Back
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 10, CLoad: 1, REGLoad: 1, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 24, A: 4, B: 5, C: 0
+IR: 00000000100001010001100000000110
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 4, S2: 5, Address: 20, Destination: 0, Data: 00000000100001010001100000000110
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 15, R7: 7, R8: 8, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Fetching Instruction
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 10, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 24, A: 4, B: 5, C: 0
+IR: 00100000111001100000000000001110
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 4, S2: 5, Address: 24, Destination: 0, Data: 00100000111001100000000000001110
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 15, R7: 7, R8: 8, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Updating PC and Loading A, B
+
+******** SIGNALS ********
+S2OP: 7, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 0, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 28, A: 7, B: 15, C: 0
+IR: 00100000111001100000000000001110
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 24, S2: 5, Address: 24, Destination: 28, Data: 00100000111001100000000000001110
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 15, R7: 7, R8: 8, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+IType Math Instructions: Execute
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 28, A: 7, B: 15, C: 0
+IR: 00100000111001100000000000001110
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 7, S2: 14, Address: 24, Destination: 21, Data: 00100000111001100000000000001110
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 15, R7: 7, R8: 8, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+IType Math Instructions: Memory
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 0, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 28, A: 7, B: 15, C: 0
+IR: 00100000111001100000000000001110
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 7, S2: 14, Address: 24, Destination: 21, Data: 00100000111001100000000000001110
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 15, R7: 7, R8: 8, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+IType Math Instructions: Write Back
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 1, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 28, A: 7, B: 15, C: 21
+IR: 00100000111001100000000000001110
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 7, S2: 14, Address: 24, Destination: 21, Data: 00100000111001100000000000001110
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 8, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Fetching Instruction
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 28, A: 7, B: 15, C: 21
+IR: 00101001001010000000000000000100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 7, S2: 14, Address: 28, Destination: 21, Data: 00101001001010000000000000000100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 8, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Updating PC and Loading A, B
+
+******** SIGNALS ********
+S2OP: 7, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 32, A: 10, B: 8, C: 21
+IR: 00101001001010000000000000000100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 28, S2: 14, Address: 28, Destination: 32, Data: 00101001001010000000000000000100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 8, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+IType Math Instructions: Execute
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 1, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 32, A: 10, B: 8, C: 21
+IR: 00101001001010000000000000000100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 10, S2: 4, Address: 28, Destination: 6, Data: 00101001001010000000000000000100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 8, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+IType Math Instructions: Memory
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 1, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 32, A: 10, B: 8, C: 21
+IR: 00101001001010000000000000000100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 10, S2: 4, Address: 28, Destination: 6, Data: 00101001001010000000000000000100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 8, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+IType Math Instructions: Write Back
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 1, CLoad: 1, REGLoad: 1, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 32, A: 10, B: 8, C: 6
+IR: 00101001001010000000000000000100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 10, S2: 4, Address: 28, Destination: 6, Data: 00101001001010000000000000000100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Fetching Instruction
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 1, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 32, A: 10, B: 8, C: 6
+IR: 00110101011010100000000000000100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 10, S2: 4, Address: 32, Destination: 6, Data: 00110101011010100000000000000100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Updating PC and Loading A, B
+
+******** SIGNALS ********
+S2OP: 7, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 36, A: 11, B: 10, C: 6
+IR: 00110101011010100000000000000100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 32, S2: 4, Address: 32, Destination: 36, Data: 00110101011010100000000000000100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+IType Math Instructions: Execute
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 5, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 36, A: 11, B: 10, C: 6
+IR: 00110101011010100000000000000100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 11, S2: 4, Address: 32, Destination: 15, Data: 00110101011010100000000000000100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+IType Math Instructions: Memory
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 5, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 36, A: 11, B: 10, C: 6
+IR: 00110101011010100000000000000100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 11, S2: 4, Address: 32, Destination: 15, Data: 00110101011010100000000000000100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 10, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+IType Math Instructions: Write Back
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 5, CLoad: 1, REGLoad: 1, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 36, A: 11, B: 10, C: 15
+IR: 00110101011010100000000000000100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 11, S2: 4, Address: 32, Destination: 15, Data: 00110101011010100000000000000100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Fetching Instruction
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 5, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 36, A: 11, B: 10, C: 15
+IR: 00010001010000001111111111111100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 11, S2: 4, Address: 36, Destination: 15, Data: 00010001010000001111111111111100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Updating PC and Loading A, B
+
+******** SIGNALS ********
+S2OP: 7, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 40, A: 15, B: 4, C: 15
+IR: 00010001010000001111111111111100
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 36, S2: 4, Address: 36, Destination: 40, Data: 00010001010000001111111111111100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Fetching Instruction
+
+******** SIGNALS ********
+S2OP: 7, ZFlag: 0, ALUop: 2, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 40, A: 15, B: 4, C: 15
+IR: 00010100000000000000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 15, S2: 4, Address: 40, Destination: 40, Data: 00010100000000000000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Updating PC and Loading A, B
+
+******** SIGNALS ********
+S2OP: 7, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 44, A: 4, B: 4, C: 15
+IR: 00010100000000000000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 40, S2: 4, Address: 40, Destination: 44, Data: 00010100000000000000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Branch Instruction: Memory
+
+******** SIGNALS ********
+S2OP: 7, ZFlag: 0, ALUop: 2, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 44, A: 4, B: 4, C: 15
+IR: 00010100000000000000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 4, S2: 4, Address: 40, Destination: 44, Data: 00010100000000000000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Branch Instruction: Write Back
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 1, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 44, A: 4, B: 4, C: 15
+IR: 00010100000000000000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 44, S2: 0, Address: 40, Destination: 44, Data: 00010100000000000000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Fetching Instruction
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 1, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 44, A: 4, B: 4, C: 15
+IR: 00001000000000000000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 44, S2: 0, Address: 44, Destination: 44, Data: 00001000000000000000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Updating PC and Loading A, B
+
+******** SIGNALS ********
+S2OP: 7, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 48, A: 4, B: 4, C: 15
+IR: 00001000000000000000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 44, S2: 0, Address: 44, Destination: 48, Data: 00001000000000000000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Jump Execute
+
+******** SIGNALS ********
+S2OP: 5, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 48, A: 4, B: 4, C: 15
+IR: 00001000000000000000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 48, S2: 0, Address: 44, Destination: 48, Data: 00001000000000000000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Jump Memory
+
+******** SIGNALS ********
+S2OP: 5, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 48, A: 4, B: 4, C: 15
+IR: 00001000000000000000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 48, S2: 0, Address: 44, Destination: 48, Data: 00001000000000000000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Jump Write Back
+
+******** SIGNALS ********
+S2OP: 5, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 48, A: 4, B: 4, C: 15
+IR: 00001000000000000000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 48, S2: 0, Address: 44, Destination: 48, Data: 00001000000000000000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Fetching Instruction
+
+******** SIGNALS ********
+S2OP: 5, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 48, A: 4, B: 4, C: 15
+IR: 10100000001001000000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 48, S2: 0, Address: 48, Destination: 48, Data: 10100000001001000000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Updating PC and Loading A, B
+
+******** SIGNALS ********
+S2OP: 7, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 0, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 0, MemRead: 1, MDRLoad: 0, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 0, PC: 52, A: 1, B: 4, C: 15
+IR: 10100000001001000000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 48, S2: 0, Address: 48, Destination: 52, Data: 10100000001001000000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Store Instruction: Execute
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 3, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 1, MemRead: 0, MDRLoad: 1, MDRoes2: 0, MemWrite: 0, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 4, MAR: 1, PC: 52, A: 1, B: 4, C: 15
+IR: 10100000001001000000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 1, S2: 4, Address: 48, Destination: 4, Data: 10100000001001000000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Store Instruction: Memory
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 3, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 1, MARLoad: 1, MemRead: 0, MDRLoad: 1, MDRoes2: 0, MemWrite: 1, MemOp: 2
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 4, MAR: 1, PC: 52, A: 1, B: 4, C: 15
+IR: 10100000001001000000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 1, S2: 4, Address: 1, Destination: 4, Data: 00000100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Store Instruction: Write Back
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 3, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 1, MARLoad: 1, MemRead: 0, MDRLoad: 1, MDRoes2: 0, MemWrite: 1, MemOp: 2
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 4, MAR: 1, PC: 52, A: 1, B: 4, C: 15
+IR: 10100000001001000000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 1, S2: 4, Address: 1, Destination: 4, Data: 00000100
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Fetching Instruction
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 3, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 1, MemRead: 1, MDRLoad: 1, MDRoes2: 0, MemWrite: 1, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 4, MAR: 1, PC: 52, A: 1, B: 4, C: 15
+IR: 10100100010010100000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 1, S2: 4, Address: 52, Destination: 4, Data: 10100100010010100000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Updating PC and Loading A, B
+
+******** SIGNALS ********
+S2OP: 7, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 1, MemRead: 1, MDRLoad: 1, MDRoes2: 0, MemWrite: 1, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 4, MAR: 1, PC: 56, A: 2, B: 15, C: 15
+IR: 10100100010010100000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 52, S2: 4, Address: 52, Destination: 56, Data: 10100100010010100000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Store Instruction: Execute
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 3, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 1, MemRead: 0, MDRLoad: 1, MDRoes2: 0, MemWrite: 1, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 15, MAR: 2, PC: 56, A: 2, B: 15, C: 15
+IR: 10100100010010100000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 2, S2: 15, Address: 52, Destination: 15, Data: 10100100010010100000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Store Instruction: Memory
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 3, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 1, MARLoad: 1, MemRead: 0, MDRLoad: 1, MDRoes2: 0, MemWrite: 1, MemOp: 1
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 15, MAR: 2, PC: 56, A: 2, B: 15, C: 15
+IR: 10100100010010100000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 2, S2: 15, Address: 2, Destination: 15, Data: 0000000000001111
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Store Instruction: Write Back
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 3, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 1, MARLoad: 1, MemRead: 0, MDRLoad: 1, MDRoes2: 0, MemWrite: 1, MemOp: 1
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 15, MAR: 2, PC: 56, A: 2, B: 15, C: 15
+IR: 10100100010010100000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 2, S2: 15, Address: 2, Destination: 15, Data: 0000000000001111
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Fetching Instruction
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 3, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 1, MemRead: 1, MDRLoad: 1, MDRoes2: 0, MemWrite: 1, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 15, MAR: 2, PC: 56, A: 2, B: 15, C: 15
+IR: 10101100011010100000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 2, S2: 15, Address: 56, Destination: 15, Data: 10101100011010100000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Updating PC and Loading A, B
+
+******** SIGNALS ********
+S2OP: 7, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 1, MemRead: 1, MDRLoad: 1, MDRoes2: 0, MemWrite: 1, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 15, MAR: 2, PC: 60, A: 0, B: 15, C: 15
+IR: 10101100011010100000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 56, S2: 15, Address: 56, Destination: 60, Data: 10101100011010100000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Store Instruction: Execute
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 3, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 1, MemRead: 0, MDRLoad: 1, MDRoes2: 0, MemWrite: 1, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 15, MAR: 0, PC: 60, A: 0, B: 15, C: 15
+IR: 10101100011010100000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 0, S2: 15, Address: 56, Destination: 15, Data: 10101100011010100000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Store Instruction: Memory
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 3, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 1, MARLoad: 1, MemRead: 0, MDRLoad: 1, MDRoes2: 0, MemWrite: 1, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 15, MAR: 0, PC: 60, A: 0, B: 15, C: 15
+IR: 10101100011010100000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 0, S2: 15, Address: 0, Destination: 15, Data: 00000000000000000000000000001111
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Store Instruction: Write Back
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 3, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 1, MARLoad: 1, MemRead: 0, MDRLoad: 1, MDRoes2: 0, MemWrite: 1, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 15, MAR: 0, PC: 60, A: 0, B: 15, C: 15
+IR: 10101100011010100000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 0, S2: 15, Address: 0, Destination: 15, Data: 00000000000000000000000000001111
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Fetching Instruction
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 3, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 1, MemRead: 1, MDRLoad: 1, MDRoes2: 0, MemWrite: 1, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 15, MAR: 0, PC: 60, A: 0, B: 15, C: 15
+IR: 10000000001000010000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 0, S2: 15, Address: 60, Destination: 15, Data: 10000000001000010000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Updating PC and Loading A, B
+
+******** SIGNALS ********
+S2OP: 7, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 1, MemRead: 1, MDRLoad: 1, MDRoes2: 0, MemWrite: 1, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 15, MAR: 0, PC: 64, A: 1, B: 1, C: 15
+IR: 10000000001000010000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 60, S2: 15, Address: 60, Destination: 64, Data: 10000000001000010000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Load Instruction: Execute
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 1, MemRead: 1, MDRLoad: 1, MDRoes2: 0, MemWrite: 1, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 15, MAR: 1, PC: 64, A: 1, B: 1, C: 15
+IR: 10000000001000010000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 1, S2: 0, Address: 60, Destination: 1, Data: 10000000001000010000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Load Instruction: Memeory
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 1, MARLoad: 1, MemRead: 0, MDRLoad: 1, MDRoes2: 0, MemWrite: 1, MemOp: 2
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 1, PC: 64, A: 1, B: 1, C: 15
+IR: 10000000001000010000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 1, S2: 0, Address: 1, Destination: 1, Data: 00000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 1, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Load Instruction: Write Back
+
+******** SIGNALS ********
+S2OP: 1, ZFlag: 0, ALUop: 3, CLoad: 1, REGLoad: 1, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 1, MARLoad: 1, MemRead: 0, MDRLoad: 1, MDRoes2: 1, MemWrite: 1, MemOp: 2
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 1, PC: 64, A: 1, B: 1, C: 0
+IR: 10000000001000010000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 1, S2: 0, Address: 1, Destination: 0, Data: 00000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 0, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Fetching Instruction
+
+******** SIGNALS ********
+S2OP: 1, ZFlag: 0, ALUop: 3, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 1, MemRead: 1, MDRLoad: 1, MDRoes2: 1, MemWrite: 1, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 1, PC: 64, A: 1, B: 1, C: 0
+IR: 10000100010000100000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 1, S2: 0, Address: 64, Destination: 0, Data: 10000100010000100000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 0, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Updating PC and Loading A, B
+
+******** SIGNALS ********
+S2OP: 7, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 1, MemRead: 1, MDRLoad: 1, MDRoes2: 1, MemWrite: 1, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 1, PC: 68, A: 2, B: 2, C: 0
+IR: 10000100010000100000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 64, S2: 0, Address: 64, Destination: 68, Data: 10000100010000100000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 0, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Load Instruction: Execute
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 1, MemRead: 1, MDRLoad: 1, MDRoes2: 1, MemWrite: 1, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 0, MAR: 2, PC: 68, A: 2, B: 2, C: 0
+IR: 10000100010000100000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 2, S2: 0, Address: 64, Destination: 2, Data: 10000100010000100000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 0, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Load Instruction: Memeory
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 1, MARLoad: 1, MemRead: 0, MDRLoad: 1, MDRoes2: 1, MemWrite: 1, MemOp: 1
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 15, MAR: 2, PC: 68, A: 2, B: 2, C: 0
+IR: 10000100010000100000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 2, S2: 0, Address: 2, Destination: 2, Data: 0000000000001111
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 0, R2: 2, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Load Instruction: Write Back
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 3, CLoad: 1, REGLoad: 1, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 1, MARLoad: 1, MemRead: 0, MDRLoad: 1, MDRoes2: 1, MemWrite: 1, MemOp: 1
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 15, MAR: 2, PC: 68, A: 2, B: 2, C: 15
+IR: 10000100010000100000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 2, S2: 15, Address: 2, Destination: 15, Data: 0000000000001111
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 0, R2: 15, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Fetching Instruction
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 3, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 1, MemRead: 1, MDRLoad: 1, MDRoes2: 1, MemWrite: 1, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 15, MAR: 2, PC: 68, A: 2, B: 2, C: 15
+IR: 10001100011000110000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 2, S2: 15, Address: 68, Destination: 15, Data: 10001100011000110000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 0, R2: 15, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Updating PC and Loading A, B
+
+******** SIGNALS ********
+S2OP: 7, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 1, MemRead: 1, MDRLoad: 1, MDRoes2: 1, MemWrite: 1, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 15, MAR: 2, PC: 72, A: 0, B: 0, C: 15
+IR: 10001100011000110000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 68, S2: 15, Address: 68, Destination: 72, Data: 10001100011000110000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 0, R2: 15, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Load Instruction: Execute
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 0, MARLoad: 1, MemRead: 1, MDRLoad: 1, MDRoes2: 1, MemWrite: 1, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 15, MAR: 0, PC: 72, A: 0, B: 0, C: 15
+IR: 10001100011000110000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 0, S2: 0, Address: 68, Destination: 0, Data: 10001100011000110000000000000000
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 0, R2: 15, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Load Instruction: Memeory
+
+******** SIGNALS ********
+S2OP: 3, ZFlag: 0, ALUop: 0, CLoad: 1, REGLoad: 0, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 1, MARLoad: 1, MemRead: 0, MDRLoad: 1, MDRoes2: 1, MemWrite: 1, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 15, MAR: 0, PC: 72, A: 0, B: 0, C: 15
+IR: 10001100011000110000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 0, S2: 0, Address: 0, Destination: 0, Data: 00000000000000000000000000001111
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 0, R2: 15, R3: 0, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+
+
+
+
+
+
+Load Instruction: Write Back
+
+******** SIGNALS ********
+S2OP: 0, ZFlag: 0, ALUop: 3, CLoad: 1, REGLoad: 1, ALoad: 1, Aoe: 1, BLoad: 1, Boe: 1, REGSelect: 1, IRLoad: 1, IRoes1: 1, 
+IRoes2: 1, Reset: 0, PCLoad: 1, PCoes1: 1, PCMARSelect: 1, MARLoad: 1, MemRead: 0, MDRLoad: 1, MDRoes2: 1, MemWrite: 1, MemOp: 0
+******** /SIGNALS ********
+
+
+******** REGISTERS ********
+MDR: 15, MAR: 0, PC: 72, A: 0, B: 0, C: 15
+IR: 10001100011000110000000000000000
+******** /REGISTERS ********
+
+
+******** BUSSES ********
+S1: 0, S2: 15, Address: 0, Destination: 15, Data: 00000000000000000000000000001111
+******** /BUSSES ********
+
+
+******** REG FILE ********
+R0: 4, R1: 0, R2: 15, R3: 15, R4: 4, R5: 5, R6: 21, R7: 7, R8: 6, R9: 10, R10: 15, R11: 11, R12: 12, R13: 13, R14: 14, R15: 15, 
+R16: 16, R17: 17, R18: 18, R19: 19, R20: 20, R21: 21, R22: 22, R23: 23, R24: 24, R25: 25, R26: 26, R27: 27, R28: 28, R29: 29, R30: 30, R31: 31, 
+******** /REG FILE ********
+
+

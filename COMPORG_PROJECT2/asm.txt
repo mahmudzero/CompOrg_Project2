@@ -1,0 +1,24 @@
+add r0, r1, r2 -> 3
+sub r3, r4, r5 -> -1
+or r6, r7, r8 -> 15
+and r9, r10, r11 -> 10 
+sll r0, r1, r2 -> 4
+slr r3, r4, r5 -> 0
+
+addi r6, r7, 14 -> 21
+subi r8, r9, 4 -> 6
+ori r10, r11, 4 -> 15
+
+beqz r10, 0 ->
+bnez r0, 0
+
+j 0
+
+sb (r1), r31	mem(r1) = r4 = 4
+sh (r2), r10	mem(r2) = r10 = 15
+sw (r3), r10	mem(r3) = r10 = 15
+
+
+lb r1, (r1)	r1 was 1, r1 = 4
+lh r2, (r2)	r2 was 2, r2 = 15
+lw r3, (r3)	r3 was 0, r3 = 15
